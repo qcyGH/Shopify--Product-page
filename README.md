@@ -33,7 +33,8 @@ Settings:
 
 1. Download this project.
 2. Past all files from `product page` folder to your theme folder.
-3. If you dont use Swiper in your project, you need to connect the `swiper-bundle.min.css` and `swiper-bundle.min.js` files in `layout/theme.liquid` like this:
+3. Connect [bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start) to your project or rewrite some elements.
+4. If you dont use Swiper in your project, you need to connect the `swiper-bundle.min.css` and `swiper-bundle.min.js` files in `layout/theme.liquid` like this:
 
 ```liquid
 <head>
@@ -51,9 +52,8 @@ Settings:
 4. How to use it in your store:
     - If you wanna test this product page template, you need to choose `qcy` theme template in product settings.
     - If you wanna use this product page template by default, just rename file (in templates folder) from this `product.qcy.json` to this `product.json`. After this check which theme template using in product settings.
-5. Connect [bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start) to your project or rewrite some elements.
-6. If your store has apps for reviews, questions, you can integrate them. This section has an HTML layout for this.
-7. If you want to show product characteristics. You need to put it in the end of product description (in admin panel, 'Show HTML'):
+5. If your store has apps for reviews, questions, you can integrate them. This section has an HTML layout for this.
+6. If you want to show product characteristics. You need to put it in the end of product description (in admin panel, 'Show HTML'):
 ```liquid
 <div class="product-сharacteristics">
   <h2 class="product-сharacteristics__title">Characteristics <span>Varmilo Beijing Opera</span>
