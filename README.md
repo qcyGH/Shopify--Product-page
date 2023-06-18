@@ -51,8 +51,9 @@ Settings:
 4. How to use it in your store:
     - If you wanna test this product page template, you need to choose `qcy` theme template in product settings.
     - If you wanna use this product page template by default, just rename file (in templates folder) from this `product.qcy.json` to this `product.json`. After this check which theme template using in product settings.
-5. If your store has apps for reviews, questions, you can integrate them. This section has an HTML layout for this.
-6. If you want to show product characteristics. You need to put it in the end of product description (in admin panel, 'Show HTML'):
+5. Connect [bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start) to your project or rewrite some elements.
+6. If your store has apps for reviews, questions, you can integrate them. This section has an HTML layout for this.
+7. If you want to show product characteristics. You need to put it in the end of product description (in admin panel, 'Show HTML'):
 ```liquid
 <div class="product-сharacteristics">
   <h2 class="product-сharacteristics__title">Characteristics <span>Varmilo Beijing Opera</span>
