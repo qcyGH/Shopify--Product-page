@@ -136,4 +136,4 @@ Settings:
 </div>
 ```
 
-P.s. if project have any issues, please let me know about this issues in `Issues` tab. Thank`s
+P.s. if you found any issues in this project, please let me know about this issues in `Issues` tab. Thank`s
